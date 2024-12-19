@@ -1,0 +1,1 @@
+This bug occurs when using the Expo DocumentPicker API on Android.  The issue arises when selecting multiple files; only the last selected file's path is returned in the result.  Previous selections are ignored. This is inconsistent with the iOS behavior, and the documentation doesn't explicitly address this limitation.
